@@ -5,8 +5,8 @@ afterEvaluate {
         publications {
             Production(MavenPublication) {
                 from components.release
-                groupId = 'com.github.Heart-Beats'
-                artifactId = 'GmTools-Android'
+                groupId = 'com.hl'
+                artifactId = 'gmtools'
                 version = '0.0.1'
             }
         }

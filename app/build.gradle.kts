@@ -5,12 +5,12 @@ plugins {
 
 android {
 	namespace = "com.hl.gmtools"
-	compileSdk = 33
+	compileSdk = 34
 
 	defaultConfig {
 		applicationId = "com.hl.gmtools"
 		minSdk = 24
-		targetSdk = 33
+		targetSdk = 34
 		versionCode = 1
 		versionName = "1.0"
 

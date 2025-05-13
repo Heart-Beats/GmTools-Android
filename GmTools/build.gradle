@@ -6,13 +6,12 @@ plugins {
 apply from: "./maven_push.gradle"
 
 android {
-    compileSdk 33
+    compileSdk rootProject.ext.compileSdk
 
     namespace 'com.hl.gmtools'
 
     defaultConfig {
-        minSdk 24
-        targetSdk 33
+        minSdk rootProject.ext.minSdk
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
